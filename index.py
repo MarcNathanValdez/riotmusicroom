@@ -57,11 +57,11 @@ $ git clone https://github.com/username/username.github.io
 
       <nav id="navbar" class="navbar order-last order-lg-0" >
         <ul>
-          <li><a class="active" href="index.php">HOME</a></li>
-          <li><a href="about.php">ABOUT US</a></li>
-          <li><a href="book.php">BOOK NOW</a></li>
-          <li><a href="explore.php">EXPLORE</a></li>
-          <li><a href="contact.php">CONTACT</a></li>
+          <li><a class="active" href="index.py">HOME</a></li>
+          <li><a href="about.py">ABOUT US</a></li>
+          <li><a href="book.py">BOOK NOW</a></li>
+          <li><a href="explore.py">EXPLORE</a></li>
+          <li><a href="contact.py">CONTACT</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
