@@ -1,6 +1,3 @@
-<?php
-$ git clone https://github.com/username/username.github.io
-?>
 <!DOCTYPE html>
 <html lang="en">
 
