@@ -78,8 +78,8 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #34b7a7;
-  border-top-color: #dcf5f2;
+  border: 6px solid #D10000;
+  border-top-color: #D10000;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -388,7 +388,7 @@ h6 {
   padding: 10px 0;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 5);
-  overflow-y: auto;
+  overflow-y: hidden;
   transition: 0.3s;
 }
 
@@ -437,7 +437,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #34b7a7;
+  color: #880808;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -454,7 +454,6 @@ h6 {
   background-size: cover;
 
 }
-
 #hero .container {
   padding-top: 150px;
   position: relative;
@@ -518,7 +517,6 @@ h6 {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -680,6 +678,7 @@ section {
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+
 }
 
 .portfolio #portfolio-flters li {
@@ -693,7 +692,6 @@ section {
   color: rgb(210, 210, 210);";
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-  border-radius: 50px;
 }
 
 .portfolio #portfolio-flters li:hover,
